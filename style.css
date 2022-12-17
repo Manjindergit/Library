@@ -25,6 +25,36 @@
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+.delButton{
+
+  border: 10px solid black;
+  line-height: 2.5;
+  width: 15vw;
+  padding: 19px 20px 20px 19px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#output{
+  display: grid;
+  gap: 10px;
+}
+
+.content{
+ 
+background-color: aqua;
+gap: 5px;
+}
 
 
 /* The Modal (background) */
@@ -65,3 +95,62 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  .statusButton{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #aaaaaa;
+  }
+/*
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }*/
